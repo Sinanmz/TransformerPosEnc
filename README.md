@@ -94,6 +94,7 @@ Here is the plot of the test accuracies of our 6 models that are divided into en
 
 ### Overal Results:
 <div align="center">
+
 | Model                                   	| Best Test Loss Value 	| Best Test Accuracy    	|
 |-----------------------------------------	|----------------------	|-----------------------	|
 | Encoder W/O Pos Enc                     	| 0.579 (at epoch 2.5) 	| 0.811 (at epoch 5.5)  	|
@@ -102,6 +103,7 @@ Here is the plot of the test accuracies of our 6 models that are divided into en
 | Decoder W/O Pos Enc                     	| 0.546 (at epoch 2.0) 	| 0.805 (at epoch 6.0)  	|
 | Decoder W/ Pos Enc W/ Learnable Params  	| 0.574 (at epoch 2.5) 	| 0.802 (at epoch 7.5)  	|
 | Decoder W/ Pos Enc W/O Learnable Params 	| 0.462 (at epoch 8.0) 	| 0.813 (at epoch 8.0)  	|
+
 </div>
 
 ### My Take on the Results
