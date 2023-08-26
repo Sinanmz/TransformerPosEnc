@@ -43,7 +43,7 @@ For this project, I've used the PyTorch framework for building and training my m
 
 For the tokenizer, I've used the "bert-base-uncased" tokenizer through the Hugging Face library. Each token has an embedding vector of size 512 and it is learned throughout the training phase. Positional encoding vectors are of the same size as token embedding vectors. 
 
-The task that I chose for this project is sentiment analysis. Classification is done by feeding the final representation of the last non-padding token of each input sequence through a feed-forward layer and performing softmax on the result. The last non-padding token in each input sequence is [CLS] special token (token id = 101) and in all the models this token is not going to receive positional encoding. Each model is going to be trained on the training data for 10 epochs. Before each epoch, in the middle of it, and at the end of the last epoch, the training loss, test loss, training accuracy, and test accuracy is going to be measured.
+The task that I chose for this project is sentiment analysis. Classification is done by feeding the final representation of the last non-padding token of each input sequence through a feed-forward layer and performing softmax on the result. The last non-padding token in each input sequence is [CLS] special token (token id = 101) and in all the models this token is not going to receive positional encoding. Each model is going to be trained on the training data for 10 epochs. Before each epoch, in the middle of it, and at the end of the last epoch, the training loss, test loss, training accuracy, and test accuracy are going to be measured.
 
 
 <br>
@@ -55,7 +55,7 @@ For the dataset, I chose the "glue-sst2" dataset. I wrote a Python script named 
 <br>
 
 ## Model Architecture
-If you want to learn about the model architectures, you can find the information in the 'models.py' script which contains the code for all the 6 models used for this project.
+If you want to learn about the model architectures, you can find the information in the `models.py` script which contains the code for all the 6 models used for this project.
 
 <br>
 
@@ -65,7 +65,7 @@ The training was done using [Google Colab](https://colab.research.google.com/) a
 <br>
 
 ## Evaluation
-After training was done, each model at each checkpoint was loaded and the training losses, test losses, training accuracies, and test accuracies were measured and saved in the Evaluation directory. You can find the notebooks containing the note for this part of the project in the eval_notebooks directory.
+After training was done, each model at each checkpoint was loaded and the training losses, test losses, training accuracies, and test accuracies were measured and saved in the Evaluation directory. You can find the notebooks containing the code for this part of the project in the eval_notebooks directory.
 
 Once all the data is gathered, the final evaluation is done by plotting the losses and accuracies of each model at each checkpoint. You can find the code for this part in Eval.ipynb in the Evaluation directory.
 
