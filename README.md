@@ -72,7 +72,7 @@ Once all the data is gathered, the final evaluation is done by plotting the loss
 <br>
 
 ## Expected Results
-Since for this specific task of text classification bidirectional relationship between tokens is pretty valuable, I expect the encoders to perform better than decoders in general, that's actually the reason why bidirectional LSTMs perform better than unidirectional LSMTs for this task. As for the goal of this project, I expect positional encoding to have a noticeable impact on the performance of the models utilizing it.
+Since for this specific task of text classification, the bidirectional relationship between tokens is pretty valuable, I expect the encoders to perform better than decoders in general. That's actually the reason why bidirectional LSTMs perform better than unidirectional LSMTs for this task. As for the goal of this project, I expect positional encoding to have a noticeable impact on the performance of the models utilizing it.
 
 <br>
 
